@@ -56,6 +56,17 @@
       gap: 0.6rem;
       flex-wrap: wrap;
       justify-content: center;
+      flex: 1;
+      color: inherit;
+      text-decoration: none;
+    }
+    a.office-move-notice-content {
+      margin: -0.6rem -2.5rem -0.6rem -1rem;
+      padding: 0.6rem 2.5rem 0.6rem 1rem;
+      cursor: pointer;
+    }
+    #consolidationAnnouncement {
+      scroll-margin-top: max(9rem, calc(50vh - 2rem));
     }
     .office-move-notice-content i {
       font-size: 1.4rem;
@@ -68,6 +79,7 @@
       position: absolute;
       right: 0.75rem;
       top: 50%;
+      z-index: 1;
       transform: translateY(-50%);
       background: none;
       border: none;
@@ -83,6 +95,10 @@
     @media (max-width: 575.98px) {
       .office-move-notice {
         font-size: 0.85rem;
+        padding: 0.5rem 2.25rem 0.5rem 0.75rem;
+      }
+      a.office-move-notice-content {
+        margin: -0.5rem -2.25rem -0.5rem -0.75rem;
         padding: 0.5rem 2.25rem 0.5rem 0.75rem;
       }
       .office-move-notice-details {
@@ -116,10 +132,10 @@
   <button type="button" class="office-move-notice-close" aria-label="Dismiss notice" onclick="document.getElementById('officeMoveNotice').remove()">&times;</button>
 </div>
 <div id="consolidationNotice" class="office-move-notice" role="alert">
-  <div class="office-move-notice-content">
+  <a class="office-move-notice-content" href="#consolidationAnnouncement">
     <i class='bx bx-info-circle' aria-hidden="true"></i>
     <span>Effective November 14, 2026, the Nampa Fire Protection District and Kuna Rural Fire District officially consolidated to form the Treasure Valley Fire District.</span>
-  </div>
+  </a>
   <button type="button" class="office-move-notice-close" aria-label="Dismiss notice" onclick="document.getElementById('consolidationNotice').remove()">&times;</button>
 </div>
 </div>
@@ -1341,7 +1357,7 @@
                     <h4>Administration Office Has Moved Temporarily</h4>
                     <p class="mb-0">July 2026 – January 2027 | 300 W. Railroad St., Nampa</p>
                   </div>
-                  <div class="col-md-12 icon-box mb-md-5" >
+                  <div id="consolidationAnnouncement" class="col-md-12 icon-box mb-md-5" >
                     <i class='bx bx-info-circle' aria-hidden="true"></i>
                     <h4>Treasure Valley Fire District – Consolidation Announcement</h4>
                     <p class="mb-2">
