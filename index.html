@@ -27,67 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- Floating notice banner styles -->
-  <style>
-    .office-move-notice {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 1080;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
-      padding: 0.6rem 2.5rem 0.6rem 1rem;
-      background-color: #b81b22;
-      color: #fff;
-      font-size: 0.95rem;
-      line-height: 1.3;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-      text-align: center;
-    }
-    .office-move-notice-content {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .office-move-notice-content i {
-      font-size: 1.4rem;
-      flex-shrink: 0;
-    }
-    .office-move-notice-details {
-      display: inline-block;
-    }
-    .office-move-notice-close {
-      position: absolute;
-      right: 0.75rem;
-      top: 50%;
-      transform: translateY(-50%);
-      background: none;
-      border: none;
-      color: #fff;
-      font-size: 1.6rem;
-      line-height: 1;
-      cursor: pointer;
-      padding: 0 0.25rem;
-    }
-    .office-move-notice-close:hover {
-      opacity: 0.75;
-    }
-    @media (max-width: 575.98px) {
-      .office-move-notice {
-        font-size: 0.85rem;
-        padding: 0.5rem 2.25rem 0.5rem 0.75rem;
-      }
-      .office-move-notice-details {
-        display: block;
-      }
-    }
-  </style>
-
   <!-- =======================================================
   * Template Name: Plato
   * Updated: Mar 10 2023 with Bootstrap v5.2.3
@@ -99,18 +38,6 @@
 
 <body>
 <a href="#main" class="visually-hidden-focusable skip-link">Skip to main content</a>
-
-<!-- ======= Floating Notice Banner ======= -->
-<div id="officeMoveNotice" class="office-move-notice" role="alert">
-  <div class="office-move-notice-content">
-    <i class='bx bx-info-circle' aria-hidden="true"></i>
-    <span>
-      <strong>Administration Office Has Moved Temporarily</strong>
-      <span class="office-move-notice-details">July 2026 – January 2027 &nbsp;|&nbsp; 300 W. Railroad St., Nampa</span>
-    </span>
-  </div>
-  <button type="button" class="office-move-notice-close" aria-label="Dismiss notice" onclick="document.getElementById('officeMoveNotice').remove()">&times;</button>
-</div>
 
 <div>
   <div class="wrap">
@@ -1325,37 +1252,17 @@
                     </span>
                   </div>
                   <div class="col-md-12 icon-box mb-md-5" >
-                    <i class='bx bx-gavel' aria-hidden="true"></i>
-                    <h4>Notice of Continued Collective Bargaining Negotiation Sessions</h4>
+                    <i class='bx bx-info-circle' aria-hidden="true"></i>
+                    <h4>Treasure Valley Fire District – Consolidation Announcement</h4>
                     <p class="mb-2">
-                      Notice is hereby given that the Nampa Fire Protection District will conduct continued Collective Bargaining Negotiation Sessions with IAFF Local 804 pursuant to Idaho Code &sect; 74-206A.
+                      Effective November 14, 2026, the Nampa Fire Protection District and Kuna Rural Fire District officially consolidated to form the Treasure Valley Fire District.
                     </p>
                     <p class="mb-2">
-                      The following negotiation sessions have been scheduled, if necessary, to complete collective bargaining negotiations:
+                      As we work through this transition, our existing websites will remain available to provide important information and updates. Fire and emergency services will continue without interruption.
                     </p>
-                    <p class="mb-2">
-                      <strong>Tuesday, August 25, 2026</strong><br>
-                      <strong>Time:</strong> 10:00 a.m. &ndash; 1:00 p.m.*<br>
-                      <strong>Location:</strong> Nampa Fire Training Facility &ndash; Safe House (300 W. Railroad St., Nampa, ID 83687)
+                    <p class="mb-0">
+                      <a href="https://kunafire.com" target="_blank" rel="noopener noreferrer">Kuna Rural Fire District official website</a>
                     </p>
-                    <p class="mb-2">
-                      <strong>Wednesday, August 26, 2026 &ndash; IF NECESSARY</strong><br>
-                      <strong>Time:</strong> 11:00 a.m. &ndash; 5:00 p.m.*<br>
-                      <strong>Location:</strong> Nampa Fire Training Facility &ndash; Safe House (300 W. Railroad St., Nampa, ID 83687)
-                    </p>
-                    <p class="mb-2">
-                      <strong>Thursday, September 3, 2026 &ndash; IF NECESSARY</strong><br>
-                      <strong>Time:</strong> 9:00 a.m. &ndash; Until negotiations conclude.*<br>
-                      <strong>Location:</strong> Nampa Fire Training Facility &ndash; Safe House (300 W. Railroad St., Nampa, ID 83687)
-                    </p>
-                    <p class="mb-2">
-                      *Each negotiation session may adjourn earlier if negotiations conclude prior to the posted end time.
-                    </p>
-                    <p class="mb-2">These negotiation sessions are open to the public.</p>
-                    <p class="mb-3">The August 26 and September 3 negotiation sessions will be held only if necessary. If negotiations conclude or a tentative agreement is reached during an earlier scheduled session, any remaining scheduled negotiation session(s) will be canceled.</p>
-                    <div class="text-center">
-                      <button type="button" class="btn btn-danger rounded-0" data-bs-toggle="modal" data-bs-target="#bargainingAgendaModal">View Full Agenda</button>
-                    </div>
                   </div>
                   <a href="https://nampafire.sharepoint.com/:f:/s/CommissionerMeetings/Evxb1otmnE5BrbxqnAhMpD0BXMJiRFVJVG9qj1DRcKFeyw?e=ceVF1x" target="_blank">
                     <div class="col-md-12 icon-box mb-md-5 pointer" data-aos="zoom-in" data-aos-delay="200" >
@@ -1367,7 +1274,9 @@
                   </a>
                   
 
-                  <h4 class="text-dark">Public Information</h4>
+                  <div class="mt-5 mb-3">
+                    <h4 class="text-dark mb-0">Public Information</h4>
+                  </div>
                   <a target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=YwyKgw8U4UqstzXTmin20FIToofFPJVGob6Ylznhg0tUQUxRRzNFMlRRNVBEOEtWQzRQVkw0OTlJRi4u" class="col-md-6 icon-box  mb-md-5" data-aos="zoom-in" data-aos-delay="400">
                     <i class='bx bx-archive-in' aria-hidden="true"></i>
                     <p class="blue pointer">CPR Class Registration</p>
@@ -1420,66 +1329,6 @@
       
 
       
-
-
-
-                    <!-- Collective Bargaining Agenda Modal -->
-                    <div class="modal fade" id="bargainingAgendaModal" tabindex="-1" aria-labelledby="bargainingAgendaModalTitle" aria-hidden="true">
-                      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="bargainingAgendaModalTitle">Continued Collective Bargaining Negotiation Session &ndash; Agenda</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                            <p class="mb-1"><strong>NAMPA FIRE PROTECTION DISTRICT</strong></p>
-                            <p class="mb-1"><strong>COLLECTIVE BARGAINING NEGOTIATION SESSIONS</strong></p>
-                            <p class="mb-2"><strong>IAFF LOCAL 804</strong></p>
-                            <p class="mb-2">
-                              <strong>Tuesday, August 25, 2026</strong><br>
-                              10:00 a.m. &ndash; 1:00 p.m.<br>
-                              Nampa Fire Protection District Training Facility &ndash; Safe House<br>
-                              300 W. Railroad St., Nampa, ID 83687
-                            </p>
-                            <p class="mb-2">
-                              <strong>Wednesday, August 26, 2026 &ndash; IF NECESSARY</strong><br>
-                              11:00 a.m. &ndash; 5:00 p.m.<br>
-                              Nampa Fire Protection District Training Facility &ndash; Safe House<br>
-                              300 W. Railroad St., Nampa, ID 83687
-                            </p>
-                            <p class="mb-2">
-                              <strong>Thursday, September 3, 2026 &ndash; IF NECESSARY</strong><br>
-                              9:00 a.m. &ndash; Until negotiations conclude<br>
-                              Nampa Fire Protection District Training Facility &ndash; Safe House<br>
-                              300 W. Railroad St., Nampa, ID 83687
-                            </p>
-                            <p class="mb-2">
-                              The August 26 and September 3 sessions will be held only if necessary. If negotiations conclude or a tentative agreement is reached during an earlier scheduled session, any remaining session(s) will be canceled. Any session held may adjourn earlier if negotiations conclude.
-                            </p>
-                            <p class="mb-2"><strong>AGENDA</strong></p>
-                            <ol class="mb-2">
-                              <li>Call to Order</li>
-                              <li>Roll Call</li>
-                              <li>Continue Collective Bargaining Negotiations Between the Nampa Fire Protection District and IAFF Local 804
-                                <ul>
-                                  <li>Continue discussion of proposals previously exchanged.</li>
-                                  <li>Continue negotiations regarding outstanding issues.</li>
-                                  <li>Consider tentative agreements, if any.</li>
-                                </ul>
-                              </li>
-                              <li>Schedule Additional Negotiation Session(s), if Necessary</li>
-                              <li>Public Testimony (if Any)</li>
-                              <li>Executive Session, if Necessary, Pursuant to Idaho Code &sect; 74-206A</li>
-                              <li>Adjourn</li>
-                            </ol>
-                            <p class="mb-0">
-                              Posted: August 24, 2026<br>
-                              By: Misti Sanders, Chief Administrative Officer
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
 
                     <!-- past notes Modal -->
                     <div class="modal fade" id="pastNotesModal" tabindex="-1" aria-labelledby="pastNotesModalTitle" aria-hidden="true">
